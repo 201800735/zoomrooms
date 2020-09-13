@@ -20,7 +20,7 @@ function App() {
 const AppContainer = styled.div`
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: window.innerHeight;
   align-items: center;
   justify-content: center;
   font-size: calc(8px + 2vmin);
