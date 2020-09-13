@@ -61,7 +61,7 @@ const Bar = styled.div`
   right: 0;
   bottom: 0;
   width: 100%;
-  height: auto;
+  height: window.innerHeight;
   display: flex;
   justify-content: center;
   align-items: center;
