@@ -55,6 +55,10 @@ const Main = (props) => {
 const MainContainer = styled.div`
   display: flex;
   flex-direction: column;
+  
+  @media (max-width: 480px){
+    position: relative;
+  }
 `;
 
 const Row = styled.div`
@@ -63,6 +67,12 @@ const Row = styled.div`
   justify-content: flex-end;
   margin-top: 15px;
   line-height: 35px;
+
+  @media (max-width: 480px){
+    position: relative;
+    margin: auto;
+    width:80vw;
+  };
 `;
 
 const Label = styled.label``;
